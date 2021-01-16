@@ -1,0 +1,18 @@
+.gallery {
+    column-count: 1;
+    column-gap: 0;
+    width: 100%;
+    display: block;
+}
+
+@media ( min-width: 769px ) {
+    .gallery {
+        column-count: 2;
+    }
+}
+
+@media ( min-width: 980px ) {
+    .gallery {
+        column-count: 4;
+    }
+}
